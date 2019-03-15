@@ -1,0 +1,103 @@
+.footer1 {
+    background: #161616;
+}
+
+.footer1 .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icontext a {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer1 h4 {
+    color: #22a7f0;
+    text-align: left;
+}
+
+.footer1 h6 {
+    color: #ffffff;
+    text-align: left;
+}
+
+.footer1 p {
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.news p {
+    color: #22a7f0;
+}
+
+.inner-related {
+    display: block;
+    font-size: 14px;
+    color: #22a7f0;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.inner-related span {
+    color: #ffffff;
+}
+
+.inner-related span:hover {
+    color: #cccccc;
+}
+
+.inner-news {
+    display: block;
+    font-size: 14px;
+    color: #22a7f0;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.inner-news span {
+    color: #ffffff;
+}
+
+.inner-news span:hover {
+    color: #cccccc;
+}
+
+.footer1 .icontext {
+    margin-bottom: 7px;
+    display: block;
+    cursor: pointer;
+}
+
+.icontext:hover {
+    opacity: 0.8;
+}
+
+.icontext span {
+    color: #ffffff;
+}
+
+.about h4,
+.related h4,
+.news h4,
+.get h4 {
+    padding-bottom: 10px;
+}
+
+.footer2 {
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+@media all and (max-width:768px) {
+    .footer1 .col-md-3 {
+        padding-top: 20px;
+        display: inline-block;
+    }
+    .footer1 .container {
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+}

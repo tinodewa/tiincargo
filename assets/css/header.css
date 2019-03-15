@@ -1,0 +1,201 @@
+ @font-face {
+     font-family: 'open-sans';
+     src: url('../fonts/open-sans/OpenSans.eot');
+     /* IE9 Compat Modes */
+     src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/OpenSans.ttf') format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/OpenSans.svg#opensans') format('svg');
+     /* Legacy iOS */
+ }
+ 
+ @font-face {
+     font-family: 'awesome';
+     src: url('../fonts/font-awesome/FontAwesome5FreeRegular.eot');
+     /* IE9 Compat Modes */
+     src: url('../fonts/font-awesome/FontAwesome5FreeRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('../fonts/font-awesome/FontAwesome5FreeRegular.woff2') format('woff2'), /* Super Modern Browsers */
+     url('../fonts/font-awesome/FontAwesome5FreeRegular.woff') format('woff'), /* Pretty Modern Browsers */
+     url('../fonts/font-awesome/FontAwesome5FreeRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+     url('../fonts/font-awesome/FontAwesome5FreeRegular.svg#opensans') format('svg');
+     /* Legacy iOS */
+ }
+ 
+ body {
+     font-family: 'open-sans';
+ }
+ 
+ .top {
+     padding: 5px;
+     box-shadow: 0 2.5px #e7e7e7;
+ }
+ 
+ .icon-sosmed {
+     padding: 5px;
+ }
+ 
+ .top-right {
+     display: inline;
+     padding-right: 40px;
+ }
+ 
+ .top .container .top-right .img {
+     vertical-align: top;
+ }
+ 
+ .top small {
+     font-family: 'awesome';
+ }
+ 
+ .top .col-md-8 {
+     margin-top: 5px;
+ }
+ 
+ .group-13 .top-right:last-child {
+     padding-right: 20px;
+ }
+ 
+ .group-20 {
+     text-align: left;
+ }
+ 
+ .group-13 {
+     text-align: right;
+ }
+ 
+ .group-20,
+ .group-13 {
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ .carousel-control .glyphicon-chevron-left {
+     width: 40px;
+     height: 35px;
+     border: 1px solid #ffffff;
+ }
+ 
+ .carousel-control .glyphicon-chevron-right {
+     width: 40px;
+     height: 35px;
+     border: 1px solid #ffffff;
+ }
+ 
+ .menu .navbar {
+     margin-bottom: 0;
+     padding: 10px;
+     padding-right: unset;
+ }
+ 
+ .navbar-nav {
+     float: right;
+     margin: 0;
+ }
+ 
+ .navbar-brand {
+     /* background: url(img/logo.png) no-repeat; */
+     padding: 5px 15px;
+     width: 100%;
+     background-origin: border-box;
+     background-size: cover;
+ }
+ 
+ .navbar-collapse {
+     padding-right: 5px;
+ }
+ 
+ .navbar-default {
+     background: none;
+     border: none;
+     padding: 0;
+ }
+ 
+ .navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover {
+     color: #98d6f8;
+     background: none;
+ }
+ 
+ @media (max-width: 768px) {
+     .group-20 {
+         text-align: center;
+     }
+     .group-13 {
+         text-align: center;
+     }
+ }
+ 
+ @media (min-width: 800px) and (max-width:991px) {
+     .group-20,
+     .group-13 {
+         text-align: center;
+     }
+ }
+ 
+ @media (min-width:426px) and (max-width:767px) {
+     .top .top-right {
+         display: block;
+         text-align: center;
+         padding-right: 0px;
+         padding-bottom: 10px;
+     }
+     .group-13 .top-right:last-child {
+         padding-right: 0px;
+     }
+     .navbar-brand.logo {
+         width: initial;
+         padding-top: 10px;
+     }
+     .navbar-nav {
+         float: none;
+     }
+     .navbar-collapse {
+         text-align: center;
+     }
+     .top-right {
+         padding-right: 80px;
+     }
+ }
+ 
+ @media all and (max-width:425px) {
+     .top .col-md-4 {
+         margin-top: 40px;
+     }
+     .top .col-md-8 {
+         margin-bottom: 40px;
+     }
+     .group-13 {
+         text-align: center;
+     }
+     .group-13 .top-right {
+         margin-bottom: 10px;
+     }
+     .navbar-brand {
+         width: initial;
+         padding-top: 10px;
+     }
+     .navbar-nav {
+         float: unset;
+     }
+     .navbar-collapse {
+         text-align: center;
+         padding-right: 0px;
+         padding-left: 0px;
+     }
+     .top .menu .navbar {
+         padding-right: 0px;
+         padding-left: 0px;
+     }
+     .icon-sosmed {
+         margin-bottom: 5px;
+     }
+     .top-right {
+         display: block;
+         padding-right: unset;
+     }
+     .group-13 .top-right:last-child {
+         padding-right: 0;
+     }
+ }
