@@ -153,7 +153,15 @@ h6 {
 
 /* end testimonials */
 
-@media (max-width:425px) {
+@media (max-width:479px) {
+    .testimonials .media-body {
+        text-align: center;
+    }
+    .testimonials .test-inner img {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .about-title .title-left,
     .about-title .title-right {
         float: none;
