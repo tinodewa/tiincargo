@@ -319,6 +319,10 @@ a {
     margin-bottom: 25px; */
 }
 
+.media-text {
+    height: 150px;
+}
+
 @media(min-width: 320px) {
     .carousel-inner {
         height: 100%;
