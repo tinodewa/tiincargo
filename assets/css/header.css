@@ -57,7 +57,7 @@
  }
  
  .group-20 {
-     /* text-align: left; */
+     text-align: left;
  }
  
  .group-13 {
@@ -127,9 +127,10 @@
      }
  }
  
- @media (min-width: 800px) {
-     .group-20 {
-         text-align: left;
+ @media (min-width: 800px) and (max-width:991px) {
+     .group-20,
+     .group-13 {
+         text-align: center;
      }
  }
  
