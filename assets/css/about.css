@@ -1,571 +1,538 @@
-        @font-face {
-            font-family: 'play';
-            src: url('../fonts/play/Play.eot');
-            /* IE9 Compat Modes */
-            src: url('../fonts/play/Play.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-            url('../fonts/play/Play.woff2') format('woff2'), /* Super Modern Browsers */
-            url('../fonts/play/Play.woff') format('woff'), /* Pretty Modern Browsers */
-            url('../fonts/play/Play.ttf') format('truetype'), /* Safari, Android, iOS */
-            url('../fonts/play/Play.svg#opensans') format('svg');
-            /* Legacy iOS */
-        }
-        
-        @font-face {
-            font-family: 'open-sans';
-            src: url('../fonts/open-sans/OpenSans.eot');
-            /* IE9 Compat Modes */
-            src: url('../fonts/open-sans/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-            url('../fonts/open-sans/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
-            url('../fonts/open-sans/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
-            url('../fonts/open-sans/OpenSans.ttf') format('truetype'), /* Safari, Android, iOS */
-            url('../fonts/open-sans/OpenSans.svg#opensans') format('svg');
-            /* Legacy iOS */
-        }
-        
-        body {
-            font-family: 'open-sans';
-            font-size: 14px;
-        }
-        
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'play';
-        }
-        /* .about-title */
-        
-        .about-title {
-            background-color: #22a7f0;
-            color: #ffffff;
-            text-align: center;
-        }
-        
-        .about-title .container {
-            display: inline-block;
-            vertical-align: middle;
-        }
-        
-        .page-address {
-            padding: 20px;
-            /* padding-right: 40px; */
-            /* float: right; */
-        }
-        
-        .page-address a {
-            color: #ffffff;
-        }
-        
-        .page-address h5 {
-            display: inline;
-            vertical-align: middle;
-            font-family: 'open-sans';
-        }
-        
-        .about-title h3 {
-            margin: 0;
-            padding: 20px 10px;
-        }
-        
-        .about-title .title-left {
-            float: left;
-        }
-        
-        .about-title .title-right {
-            float: right;
-        }
-        /* end about-title */
-        /*about-explanation */
-        
-        .about-explanation {
-            padding-top: 80px;
-            padding-bottom: 80px;
-        }
-        
-        .about-explanation .container .col-md-6 img {
-            width: 225px;
-            height: auto;
-            display: inline-block;
-        }
-        
-        .about-explanation h1 {
-            margin-top: 0;
-            color: #22a7f0;
-        }
-        
+    @font-face {
+        font-family: 'play';
+        src: url('../fonts/play/Play.eot');
+        /* IE9 Compat Modes */
+        src: url('../fonts/play/Play.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/play/Play.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/play/Play.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/play/Play.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/play/Play.svg#opensans') format('svg');
+        /* Legacy iOS */
+    }
+    
+    @font-face {
+        font-family: 'open-sans';
+        src: url('../fonts/open-sans/OpenSans.eot');
+        /* IE9 Compat Modes */
+        src: url('../fonts/open-sans/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/open-sans/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/open-sans/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/open-sans/OpenSans.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/open-sans/OpenSans.svg#opensans') format('svg');
+        /* Legacy iOS */
+    }
+    
+    body {
+        font-family: 'open-sans';
+        font-size: 14px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'play';
+    }
+    /* .about-title */
+    
+    .about-title {
+        background-color: #22a7f0;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .about-title .container {
+        display: inline-block;
+    }
+    
+    .page-address {
+        padding: 20px;
+        /* padding-right: 40px; */
+        /* float: right; */
+    }
+    
+    .page-address a {
+        color: #ffffff;
+    }
+    
+    .page-address h5 {
+        display: inline;
+        vertical-align: middle;
+        font-family: 'open-sans';
+    }
+    
+    .about-title h3 {
+        margin: 0;
+        padding: 20px 10px;
+    }
+    
+    .about-title .title-left {
+        float: left;
+    }
+    
+    .about-title .title-right {
+        float: right;
+    }
+    /* end about-title */
+    /*about-explanation */
+    
+    .about-explanation {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .about-explanation .container .col-md-6 img {
+        width: 225px;
+        height: auto;
+        display: inline-block;
+    }
+    
+    .about-explanation h1 {
+        margin-top: 0;
+        color: #22a7f0;
+    }
+    
+    .about-explanation p {
+        margin-top: 20px;
+    }
+    
+    .about-explanation button {
+        margin-top: 20px;
+        padding: 16px 25px;
+        color: #ffffff;
+        background-color: #22a7f0;
+        border: 1px solid transparent;
+        font-family: 'play';
+        font-size: 15px;
+    }
+    /* end about-explanation */
+    /* .about-point */
+    
+    .about-point {
+        background-color: #323232;
+        color: #ffffff;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    .about-point .col-md-4 {
+        text-align: center;
+    }
+    
+    .about-point h2 {
+        font-size: 24px;
+    }
+    
+    .about-point p {
+        font-size: 15px;
+    }
+    
+    .icon-point {
+        margin: auto;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 4px solid #22a7f0;
+    }
+    
+    .icon-point img {
+        width: 30px;
+        margin-top: 50px;
+    }
+    /* end about-point */
+    /* .about-reason */
+    
+    .about-reason {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    .about-reason h1 {
+        color: #22a7f0;
+        margin-bottom: 30px;
+    }
+    
+    .about-reason p {
+        font-size: 15.5px;
+    }
+    
+    .btn-danger {
+        border-radius: 0;
+    }
+    
+    .about-reason a {
+        font-family: 'open-sans';
+    }
+    
+    .about-reason .panel-title a {
+        display: block;
+    }
+    
+    .about-reason .panel-title a span:first-child {
+        margin-right: 20px;
+        padding: 15px;
+    }
+    
+    .about-reason .panel-title a img {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .panel,
+    .panel-group .panel {
+        border-radius: unset;
+    }
+    
+    a:focus,
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .about-reason .panel-group .panel-heading {
+        border-radius: 0px;
+        padding: 0px;
+    }
+    
+    .panel-default>.panel-heading {
+        background-color: transparent;
+    }
+    
+    .about-reason .glyphicon {
+        transition: .3s transform ease-in-out;
+        border-right: 1px solid #ddd;
+        background-color: #22a7f0;
+        top: 0px;
+        color: #ffffff;
+    }
+    
+    .about-reason .collapsed .glyphicon {
+        transform: rotate(-90deg);
+        border-bottom: 1px solid #ddd;
+        border-right: none;
+        background-color: #ffffff;
+        color: #22a7f0;
+    }
+    
+    .about-reason a {
+        color: #ffffff;
+    }
+    
+    .accordion-toggle {
+        background-color: #323232;
+        color: #ffffff;
+    }
+    
+    .accordion-toggle.collapsed {
+        background-color: #ffffff;
+        color: #111111;
+    }
+    /* end about-reason */
+    /* about-review */
+    
+    .about-review {
+        padding-top: 75px;
+        padding-bottom: 125px;
+        background-color: #323232;
+        color: #ffffff;
+    }
+    
+    .carousel-control {
+        visibility: hidden;
+    }
+    
+    #carousel-example-generic .carousel-indicators {
+        top: 320px;
+    }
+    
+    .about-review .circle {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-top: 110px;
+        border-radius: 50%;
+        background: url(../img/fonsi-fernandez-726000-unsplash.jpg) no-repeat;
+        background-size: cover;
+    }
+    
+    .about-review .col-md-4 {
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .about-review .col-md-8 h1 {
+        margin-bottom: 40px;
+    }
+    
+    .about-review .col-md-8 p {
+        margin-bottom: 25px;
+        line-height: 2em;
+    }
+    
+    .about-review .comment {
+        border-left: 3px solid #ffffff;
+        padding-left: 55px;
+        margin-left: -55px;
+    }
+    /* end about-review */
+    /* about-team */
+    
+    .about-team {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    .about-team h1 {
+        margin-bottom: 40px;
+    }
+    
+    .about-team .container .team-pict {
+        float: left;
+        width: 25%;
+        text-align: center;
+    }
+    
+    .about-team h3 {
+        font-family: 'open-sans';
+    }
+    /* end about-team */
+    /* about-end */
+    
+    .about-end {
+        color: #ffffff;
+        background-color: #22a7f0;
+        padding: 20px;
+        vertical-align: middle;
+    }
+    
+    .about-end a.asd {
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        padding: 8px 20px;
+        border-radius: 3px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .about-end .end-text {
+        float: left;
+    }
+    
+    .about-end .end-button {
+        float: right;
+        margin-right: 10px;
+    }
+    /* end about-end */
+    
+    @media all and (max-width:1024px) {
         .about-explanation p {
-            margin-top: 20px;
+            margin-top: 10px;
         }
-        
         .about-explanation button {
-            margin-top: 20px;
-            padding: 16px 25px;
-            color: #ffffff;
-            background-color: #22a7f0;
-            border: 1px solid transparent;
-            font-family: 'play';
+            margin-top: 8px;
+            padding: 10px 15px;
+        }
+        .icon-point {
+            height: 125px;
+            width: 125px;
+        }
+        .icon-point img {
+            margin-top: 40px;
+        }
+        #carousel-example-generic .carousel-indicators {
+            top: 325px;
+        }
+        .about-team img {
+            width: 175px;
+            height: auto;
+        }
+        .about-team h3 {
+            font-size: 23px;
+        }
+        .about-team p {
             font-size: 15px;
         }
-        /* end about-explanation */
-        /* .about-point */
-        
-        .about-point {
-            background-color: #323232;
-            color: #ffffff;
-            padding-top: 75px;
-            padding-bottom: 75px;
-        }
-        
-        .about-point .col-md-4 {
+    }
+    
+    @media all and (max-width:768px) {
+        .about-explanation .container {
             text-align: center;
         }
-        
-        .about-point h2 {
-            font-size: 24px;
+        .carousel-inner>.item>a>img,
+        .carousel-inner>.item>img,
+        .img-responsive,
+        .thumbnail a>img,
+        .thumbnail>img {
+            display: initial;
+            padding: 25px;
         }
-        
-        .about-point p {
-            font-size: 15px;
+        .about-explanation p {
+            padding-left: 20px;
+            padding-right: 20px;
         }
-        
-        .icon-point {
-            margin: auto;
-            height: 150px;
-            width: 150px;
-            border-radius: 50%;
-            background-color: transparent;
-            border: 4px solid #22a7f0;
+        #carousel-example-generic .carousel-indicators {
+            top: 520px;
         }
-        
-        .icon-point img {
-            width: 30px;
+        .about-point .col-md-4 {
+            margin-bottom: 50px;
+        }
+        .about-point .col-md-4:last-child {
+            margin-bottom: 0px;
+        }
+        .about-reason h1 {
+            text-align: center;
+        }
+        .about-review .circle {
             margin-top: 50px;
         }
-        /* end about-point */
-        /* .about-reason */
-        
-        .about-reason {
-            padding-top: 75px;
-            padding-bottom: 75px;
+        .about-review .comment {
+            padding-left: 10px;
+            margin-left: -10px;
         }
-        
-        .about-reason h1 {
-            color: #22a7f0;
+        .about-review .item {
+            text-align: center;
+        }
+        .about-review .comment {
+            border-left: 3px solid transparent;
+        }
+        .about-review .col-md-8 h1 {
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+        .about-reason {
+            padding-top: 10px;
+            padding-bottom: 50px;
+        }
+        .about-reason .col-md-6 h1 {
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+        .about-team {
+            padding-top: 40px;
+            padding-bottom: 25px;
+        }
+        .about-team .container {
+            text-align: center;
+        }
+        .about-team .container .team-pict {
+            width: 50%;
+            margin-bottom: 40px;
+        }
+        .about-team h1 {
+            margin-bottom: 60px;
+        }
+        .about-end {
+            text-align: center;
+        }
+        .about-end .col-md-10 {
+            margin-bottom: 15px;
+        }
+        .about-end .end-button {
+            margin-right: 35px;
+        }
+    }
+    
+    @media (min-width:426px) and (max-width:735px) {
+        .about-title .container {
+            vertical-align: middle;
+        }
+        .about-explanation img:first-child {
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+        .about-explanation img:last-child {
+            padding-bottom: 50px;
+            padding-top: 0px;
+        }
+        .about-end .end-text,
+        .about-end .end-button {
+            float: none;
+        }
+        .about-end .end-button {
+            margin-right: 0px;
+        }
+    }
+    
+    @media all and (max-width:425px) {
+        .about-explanation {
+            padding-top: 35px;
+            padding-bottom: 55px;
+        }
+        .about-explanation img:first-child {
+            padding-bottom: 0px;
+        }
+        .about-explanation img:last-child {
+            padding-bottom: 50px;
+            padding-top: 0px;
+        }
+        .about-title .title-left,
+        .about-title .title-right {
+            float: none;
+        }
+        .about-title h3 {
+            padding-bottom: 5px;
+        }
+        .about-title .page-address {
+            padding-top: 5px;
+        }
+        .about-reason .col-md-6 h1 {
+            margin-top: 50px;
+        }
+        .about-team {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .about-team h1 {
+            text-align: center;
             margin-bottom: 30px;
         }
-        
-        .about-reason p {
-            font-size: 15.5px;
+        .about-team .col-md-3 {
+            margin-bottom: 35px;
         }
-        
-        .btn-danger {
-            border-radius: 0;
+        .about-team .col-md-3 h3 {
+            margin-top: 10px;
         }
-        
-        .about-reason a {
-            font-family: 'open-sans';
-        }
-        
-        .about-reason .panel-title a {
-            display: block;
-        }
-        
-        .about-reason .panel-title a span:first-child {
-            margin-right: 20px;
-            padding: 15px;
-        }
-        
-        .about-reason .panel-title a img {
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-        
-        .panel,
-        .panel-group .panel {
-            border-radius: unset;
-        }
-        
-        a:focus,
-        a:hover {
-            text-decoration: none;
-        }
-        
-        .about-reason .panel-group .panel-heading {
-            border-radius: 0px;
+        .about-team .col-md-3.pict-left {
             padding: 0px;
         }
-        
-        .panel-default>.panel-heading {
-            background-color: transparent;
+        .about-team .col-md-3.pict-right {
+            padding: 0px;
         }
-        
-        .about-reason .glyphicon {
-            transition: .3s transform ease-in-out;
-            border-right: 1px solid #ddd;
-            background-color: #22a7f0;
-            top: 0px;
-            color: #ffffff;
-        }
-        
-        .about-reason .collapsed .glyphicon {
-            transform: rotate(-90deg);
-            border-bottom: 1px solid #ddd;
-            border-right: none;
-            background-color: #ffffff;
-            color: #22a7f0;
-        }
-        
-        .about-reason a {
-            color: #ffffff;
-        }
-        
-        .accordion-toggle {
-            background-color: #323232;
-            color: #ffffff;
-        }
-        
-        .accordion-toggle.collapsed {
-            background-color: #ffffff;
-            color: #111111;
-        }
-        /* end about-reason */
-        /* about-review */
-        
         .about-review {
-            padding-top: 75px;
-            padding-bottom: 125px;
-            background-color: #323232;
-            color: #ffffff;
+            padding-top: 30px;
+            padding-bottom: 80px;
         }
-        
-        .carousel-control {
-            visibility: hidden;
-        }
-        
-        #carousel-example-generic .carousel-indicators {
-            top: 320px;
-        }
-        
-        .about-review .circle {
-            width: 150px;
-            height: 150px;
-            margin: auto;
-            margin-top: 110px;
-            border-radius: 50%;
-            background: url(../img/fonsi-fernandez-726000-unsplash.jpg) no-repeat;
-            background-size: cover;
-        }
-        
         .about-review .col-md-4 {
-            text-align: center;
-            vertical-align: middle;
+            margin-bottom: 30px;
         }
-        
-        .about-review .col-md-8 h1 {
-            margin-bottom: 40px;
+        #carousel-example-generic .carousel-indicators {
+            top: 650px;
         }
-        
-        .about-review .col-md-8 p {
-            margin-bottom: 25px;
-            line-height: 2em;
+        .about-reason .col-md-6:last-child {
+            margin-top: 60px;
         }
-        
-        .about-review .comment {
-            border-left: 3px solid #ffffff;
-            padding-left: 55px;
-            margin-left: -55px;
-        }
-        /* end about-review */
-        /* about-team */
-        
-        .about-team {
-            padding-top: 75px;
-            padding-bottom: 75px;
-        }
-        
-        .about-team h1 {
-            margin-bottom: 40px;
-        }
-        
-        .about-team .container .team-pict {
-            float: left;
-            width: 25%;
-            text-align: center;
-        }
-        
-        .about-team h3 {
-            font-family: 'open-sans';
-        }
-        /* end about-team */
-        /* about-end */
-        
-        .about-end {
-            color: #ffffff;
-            background-color: #22a7f0;
-            padding: 20px;
-            vertical-align: middle;
-        }
-        
-        .about-end a.asd {
-            color: #ffffff;
-            border: 1px solid #ffffff;
-            padding: 8px 20px;
-            border-radius: 3px;
-            display: inline-block;
-            text-align: center;
-        }
-        
-        .about-end .end-text {
-            float: left;
-        }
-        
         .about-end .end-button {
-            float: right;
-            margin-right: 10px;
+            margin-right: 0px;
+            float: none;
         }
-        /* end about-end */
-        
-        @media all and (max-width:1024px) {
-            .about-explanation .col-md-6:first-child {
-                text-align: center;
-                padding-bottom: 40px;
-            }
-            .about-explanation .container .col-md-6 img {
-                width: 200px;
-            }
-            .about-explanation p {
-                margin-top: 10px;
-            }
-            .about-explanation button {
-                margin-top: 8px;
-                padding: 10px 15px;
-            }
-            .icon-point {
-                height: 125px;
-                width: 125px;
-            }
-            .icon-point img {
-                margin-top: 40px;
-            }
-            #carousel-example-generic .carousel-indicators {
-                top: 325px;
-            }
-            .about-team img {
-                width: 175px;
-                height: auto;
-            }
-            .about-team h3 {
-                font-size: 23px;
-            }
-            .about-team p {
-                font-size: 15px;
-            }
+        .about-end .end-text {
+            float: none;
         }
-        
-        @media all and (max-width:768px) {
-            .about-explanation .container {
-                text-align: center;
-            }
-            .carousel-inner>.item>a>img,
-            .carousel-inner>.item>img,
-            .img-responsive,
-            .thumbnail a>img,
-            .thumbnail>img {
-                display: initial;
-                padding: 25px;
-            }
-            .about-explanation p {
-                padding-left: 20px;
-                padding-right: 20px;
-            }
-            #carousel-example-generic .carousel-indicators {
-                top: 520px;
-            }
-            .about-point .col-md-4 {
-                margin-bottom: 50px;
-            }
-            .about-point .col-md-4:last-child {
-                margin-bottom: 0px;
-            }
-            .about-reason h1 {
-                text-align: center;
-            }
-            .about-review .circle {
-                margin-top: 50px;
-            }
-            .about-review .comment {
-                padding-left: 10px;
-                margin-left: -10px;
-            }
-            .about-review .item {
-                text-align: center;
-            }
-            .about-review .comment {
-                border-left: 3px solid transparent;
-            }
-            .about-review .col-md-8 h1 {
-                margin-bottom: 10px;
-                margin-top: 50px;
-            }
-            .about-reason {
-                padding-top: 10px;
-                padding-bottom: 50px;
-            }
-            .about-reason .col-md-6 h1 {
-                margin-bottom: 10px;
-                margin-top: 50px;
-            }
-            .about-team {
-                padding-top: 40px;
-                padding-bottom: 25px;
-            }
-            .about-team .container {
-                text-align: center;
-            }
-            .about-team .container .team-pict {
-                width: 50%;
-                margin-bottom: 40px;
-            }
-            .about-team h1 {
-                margin-bottom: 60px;
-            }
-            .about-end {
-                text-align: center;
-            }
-            .about-end .col-md-10 {
-                margin-bottom: 15px;
-            }
-            .about-end .end-button {
-                margin-right: 35px;
-            }
+    }
+    
+    @media all and (max-width:375px) {
+        #carousel-example-generic .carousel-indicators {
+            top: 680px;
         }
-        
-        @media (min-width: 800px) and (max-width:991px) {
-            .about-explanation {
-                text-align: center;
-            }
-            .about-point .col-md-4 {
-                padding-bottom: 40px;
-            }
-            .about-point .col-md-4:last-child {
-                padding-bottom: 0px;
-            }
-            .about-reason .col-md-6:last-child h1 {
-                padding-top: 30px;
-            }
-            .about-review .carousel-inner {
-                text-align: center;
-            }
-            #carousel-example-generic .carousel-indicators {
-                top: 550px;
-            }
-            .about-review {
-                padding: 0px;
-                height: 650px;
-            }
-            .about-review .comment {
-                border-left: 3px solid transparent;
-            }
+        .about-team .container .team-pict {
+            width: 100%;
         }
-        
-        @media (min-width: 426px) and (max-width: 735px) {
-            .about-title .container {
-                vertical-align: middle;
-            }
-            .about-explanation img:first-child {
-                padding-bottom: 0px;
-                padding-top: 0px;
-            }
-            .about-end .end-text,
-            .about-end .end-button {
-                float: none;
-            }
-            .about-end .end-button {
-                margin-right: 0px;
-            }
+    }
+    
+    @media all and (max-width:325px) {
+        #carousel-example-generic .carousel-indicators {
+            top: 710px;
         }
-        
-        @media all and (max-width:425px) {
-            .about-explanation {
-                padding-top: 35px;
-                padding-bottom: 55px;
-            }
-            .about-explanation img:first-child {
-                padding-bottom: 0px;
-            }
-            .about-explanation img:last-child {
-                padding-bottom: 50px;
-                padding-top: 0px;
-            }
-            .about-title .title-left,
-            .about-title .title-right {
-                float: none;
-            }
-            .about-title h3 {
-                padding-bottom: 5px;
-            }
-            .about-title .page-address {
-                padding-top: 5px;
-            }
-            .about-reason .col-md-6 h1 {
-                margin-top: 50px;
-            }
-            .about-team {
-                padding-top: 40px;
-                padding-bottom: 40px;
-            }
-            .about-team h1 {
-                text-align: center;
-                margin-bottom: 30px;
-            }
-            .about-team .col-md-3 {
-                margin-bottom: 35px;
-            }
-            .about-team .col-md-3 h3 {
-                margin-top: 10px;
-            }
-            .about-team .col-md-3.pict-left {
-                padding: 0px;
-            }
-            .about-team .col-md-3.pict-right {
-                padding: 0px;
-            }
-            .about-review {
-                height: 700px;
-                padding-top: 30px;
-                padding-bottom: 80px;
-            }
-            .about-review .col-md-4 {
-                margin-bottom: 30px;
-            }
-            #carousel-example-generic .carousel-indicators {
-                top: 575px;
-            }
-            .about-reason .col-md-6:last-child {
-                margin-top: 60px;
-            }
-            .about-end .end-button {
-                margin-right: 0px;
-                float: none;
-            }
-            .about-end .end-text {
-                float: none;
-            }
-        }
-        
-        @media all and (max-width:375px) {
-            #carousel-example-generic .carousel-indicators {
-                top: 680px;
-            }
-            .about-team .container .team-pict {
-                width: 100%;
-            }
-        }
-        
-        @media all and (max-width:325px) {
-            #carousel-example-generic .carousel-indicators {
-                top: 710px;
-            }
-        }
+    }
