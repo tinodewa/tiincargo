@@ -34,18 +34,26 @@ h4,
 h5,
 h6 {
     font-family: 'play';
-    margin-top: 10px;
 }
 
-
-/*Carousel*/
+.top-right a {
+    color: black;
+}
 
 .carousel-control.left {
-    padding-top: 325px;
+    /* padding-top: 325px; */
+    top: 0;
+    bottom: 0;
+    height: 45px;
+    margin: auto 0;
 }
 
 .carousel-control.right {
-    padding-top: 325px;
+    /* padding-top: 325px; */
+    top: 0;
+    bottom: 0;
+    height: 45px;
+    margin: auto 0;
 }
 
 .carousel-control.left img {
@@ -72,15 +80,17 @@ h6 {
     border: 1px solid #ffffff;
 }
 
-.carousel-inner .item {
-    background: url(../img/fonsi-fernandez-726000-unsplash.jpg)no-repeat;
-    background-size: 100%;
+.bg {
     width: 100%;
     height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
-
-/*end Carousel*/
 
 .navbar-default {
     background: none;
@@ -95,6 +105,37 @@ h6 {
     background: none;
 }
 
+.carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner .item img {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-caption {
+    /* padding: 250px 0 425px 0; */
+    bottom: 0;
+}
+
+
+/* .carousel-caption a {
+    margin-top: 20px;
+} */
+
+.carousel-caption .btn-primary {
+    border-radius: 2px;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 10px 35px;
+    /* margin-bottom: 25px; */
+}
+
 .btn-primary:active:hover {
     color: #fff;
     background: none;
@@ -102,6 +143,7 @@ h6 {
 
 a {
     color: #22a7f0;
+    /* color: black; */
     text-decoration: none;
 }
 
@@ -203,6 +245,15 @@ a {
 
 .item {
     background-color: #f8f8f8;
+    height: 100%;
+}
+
+.from-blog .owl-carousel .owl-nav button.owl-prev img {
+    padding-bottom: 5px;
+}
+
+.from-blog .owl-carousel .owl-nav button.owl-next img {
+    padding-bottom: 5px;
 }
 
 .owl-theme .owl-nav {
@@ -268,9 +319,13 @@ a {
     margin-bottom: 25px; */
 }
 
+.media-text {
+    height: 150px;
+}
+
 @media(min-width: 320px) {
     .carousel-inner {
-        height: 235px;
+        height: 100%;
     }
     .carousel-indicators .active {
         width: 0;
@@ -279,14 +334,14 @@ a {
         background-color: #fff;
     }
     .carousel-control.left {
-        padding-top: 80px;
+        /* padding-top: 80px; */
         background-image: none;
-        height: 0;
+        /* height: 0; */
     }
     .carousel-control.right {
-        padding-top: 80px;
+        /* padding-top: 80px; */
         background-image: none;
-        height: 0;
+        /* height: 0; */
     }
     .carousel-control.left img {
         border-style: solid;
@@ -302,12 +357,18 @@ a {
     }
     .carousel-caption {
         position: absolute;
+        /* right: 15%; */
         bottom: 0;
         top: 0;
         height: 100px;
         margin: auto 0;
+        /* left: 15%; */
         text-align: center;
         text-shadow: none;
+        padding: 0 0 0 0;
+    }
+    .carousel-caption a {
+        margin-top: 15px;
     }
     .carousel-caption .btn-primary {
         font-size: 10px;
@@ -442,7 +503,7 @@ a {
         margin-right: 10px;
     }
     .owl-theme .owl-nav {
-        margin-top: 0px !important;
+        margin-top: 15px !important;
         margin-bottom: 30px;
         text-align: center;
     }
@@ -465,7 +526,7 @@ a {
 
 @media(min-width: 375px) {
     .carousel-caption {
-        bottom: 45px;
+        /* bottom: 45px; */
     }
     .carousel-caption h1 {
         margin-bottom: 0;
@@ -492,7 +553,8 @@ a {
         height: 500px;
     }
     .carousel-caption {
-        bottom: 200px;
+        /* bottom: 200px; */
+        height: 300px;
     }
     .carousel-caption h1 {
         font-size: 30px;
@@ -513,10 +575,12 @@ a {
         margin-top: 30px;
     }
     .carousel-control.left {
-        padding-top: 190px;
+        /* padding-top: 190px; */
+        height: 69px;
     }
     .carousel-control.right {
-        padding-top: 190px;
+        /* padding-top: 190px; */
+        height: 69px;
     }
     .carousel-control.left img {
         padding: 15px;
@@ -619,7 +683,7 @@ a {
 
 @media (min-width: 992px) {
     .carousel-caption {
-        bottom: 450px;
+        /* bottom: 450px; */
     }
     .carousel-caption p {
         font-size: 18px;
@@ -676,7 +740,7 @@ a {
 
 @media(min-width: 1200px) {
     .carousel-caption {
-        bottom: 700px;
+        /* bottom: 700px; */
     }
     .carousel-caption p {
         margin-bottom: -190px;
@@ -690,6 +754,10 @@ a {
         height: auto;
         min-width: 0;
     }
+    .owl-carousel.owl-drag .owl-item {
+        width: 565px;
+        margin-right: 10px;
+    }
     .owl-item {
         width: 565px;
         margin-right: 0px;
@@ -702,34 +770,30 @@ a {
         display: inline-flex;
     }
     .media-body {
-        display: inline-grid;
-        width: 365px;
-        height: 200px;
-        padding-left: 20px;
+        display: table-cell;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        text-align: right;
     }
     .media-body h4 {
-        width: 325px;
-        height: 25px;
+        width: auto;
+        height: auto;
         font-size: 15px;
         text-align: left;
     }
     .media-body p {
-        height: 80px;
+        height: auto;
         margin: 0 0 25px;
         font-size: 14px;
         text-align: left;
+        padding-bottom: 0;
     }
     .media-body a {
-        height: 25px;
+        height: auto;
         text-align: right;
     }
     .owl-theme .owl-nav {
         margin-top: 15px !important;
-    }
-}
-
-@media(min-width: 1440px) {
-    .carousel-caption {
-        bottom: 865px;
     }
 }
