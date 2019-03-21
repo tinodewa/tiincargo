@@ -79,89 +79,6 @@ h6 {
     float: right;
 }
 
-
-/* contact us */
-
-.heading {
-    margin-top: 60px;
-}
-
-.heading h1 {
-    background: url(../img/heading.png) no-repeat;
-    background-position: left bottom;
-    padding: 0 0 20px 0;
-    padding-bottom: 10px;
-    margin-bottom: 50px;
-}
-
-.contact-us h1 {
-    color: #22a7f0;
-}
-
-
-/* end contact us */
-
-
-/* form */
-
-.form-horizontal {
-    margin-bottom: 25px;
-}
-
-.form-control {
-    border-radius: 0;
-    padding: 20px 20px;
-}
-
-.btn-default {
-    color: #fff;
-    background-color: #22a7f0;
-    border-color: #22a7f0;
-    margin-bottom: 60px;
-}
-
-.btn {
-    padding: 6px 30px;
-    border-radius: 0;
-}
-
-
-/* end form */
-
-
-/* get in touch */
-
-.get-in-touch {
-    background: #22a7f0;
-    color: #ffffff;
-    height: auto;
-}
-
-.get-in-touch h4 {
-    padding: 35px;
-    padding-left: unset;
-}
-
-.control-right {
-    padding: 35px;
-    text-align: right;
-}
-
-.control-right .btn-default {
-    border-radius: 2px;
-    border: 1px solid #fff;
-    background: rgba(255, 255, 255, 0.05);
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding: 10px 35px;
-    /* margin-top: 25px;
-    margin-bottom: 25px; */
-}
-
-
-/* end get in touch */
-
 @media(min-width: 320px) {
     .contact-title .title-left,
     .contact-title .title-right {
@@ -178,35 +95,25 @@ h6 {
         height: 10px;
         padding-top: 2px;
     }
-    .heading h1 {
+    .content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .content h1 {
         font-size: 20px;
-    }
-    .heading {
-        margin-top: 30px;
-    }
-    .form-group {
-        margin-bottom: 0;
-    }
-    .form-control {
-        margin-bottom: 15px;
-    }
-    .btn-default {
-        margin-bottom: 35px;
-    }
-    .get-in-touch h4 {
-        padding-left: unset;
-        font-size: 15px;
-        text-align: center;
-        padding: 10px;
-        padding-top: 20px;
-    }
-    .control-right {
-        padding: 0px;
-        /* padding-bottom: 30px; */
         text-align: center;
     }
-    .control-right .btn-default {
-        font-size: 10px;
+    .content img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .content p,
+    .content ol {
+        font-size: 14px;
     }
 }
 
@@ -223,27 +130,10 @@ h6 {
     .contact-title .page-address {
         padding-top: 16px;
     }
-    .get-in-touch h4 {
-        font-size: 25px;
-        padding: 15px;
-        padding-top: 30px;
-    }
-    .control-right .btn-default {
-        font-size: 17px;
-    }
 }
 
 @media(min-width: 992px) {
-    .get-in-touch h4 {
-        font-size: 16px;
-        padding: 0px;
-        padding-top: 0;
-        margin-top: 30px;
-        text-align: left;
-    }
-    .control-right .btn-default {
-        font-size: 10px;
-        margin: 20px 0;
-        float: right;
+    .content h1 {
+        font-size: 23px;
     }
 }
