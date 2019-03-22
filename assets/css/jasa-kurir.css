@@ -86,8 +86,20 @@ h6 {
 /* isi */
 
 .jasa-kurir {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 60px;
+}
+
+.jasa-kurir .title-banner {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ececec;
+}
+
+.jasa-kurir .img-banner img {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0px 0px;
 }
 
 .jasa-kurir .inner-img {
@@ -96,12 +108,14 @@ h6 {
 
 .jasa-kurir .inner-img img {
     display: inline-block;
-    margin: 45px;
+}
+
+.jasa-kurir .inner-text.after-banner p {
+    margin-top: 5px;
 }
 
 .jasa-kurir .inner-kurir {
     border-bottom: 3px solid #cecece;
-    padding-bottom: 40px;
 }
 
 .jasa-kurir .inner-kurir:last-child {
@@ -113,13 +127,16 @@ h6 {
 }
 
 .jasa-kurir .inner-kurir h2 {
-    padding: 20px 0px;
-    padding-top: 50px;
+    padding-top: 5px;
     text-align: center;
 }
 
 .jasa-kurir .inner-text {
     padding: 0px 150px;
+    padding: 10px;
+    margin: 25px 0px;
+    box-shadow: 0.8px 2px 15px rgba(29, 67, 99, 0.6);
+    border-radius: 6px;
 }
 
 
