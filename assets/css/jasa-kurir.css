@@ -86,63 +86,46 @@ h6 {
 
 /* isi */
 
-.jasa-kurir {
-    padding-top: 10px;
-    padding-bottom: 60px;
+.border1,
+.border2,
+.border3 {
+    box-sizing: content-box;
+    /* border: 1px solid #dcdcdc; */
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+    /* margin-bottom: 25px; */
+    box-shadow: 0 .15rem 1.75rem 0 rgba(33, 37, 41, .15)!important;
 }
 
-.jasa-kurir .title-banner {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ececec;
-    text-align: left;
+.border1 h5,
+.border2 h5,
+.border3 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
-.jasa-kurir .img-banner img {
-    display: inline-block;
-    width: 100%;
-    margin: 15px 0px 0px;
-    border-radius: 4px;
+.border1 p,
+.border2 p,
+.border2 ol,
+.border3 p,
+.border3 ol {
+    line-height: 1.78;
+}
+
+.jasa-kurir .col-md-4 {
+    float: none;
 }
 
 .jasa-kurir .inner-img {
     text-align: center;
+    padding: 25px;
 }
 
 .jasa-kurir .inner-img img {
     display: inline-block;
     border-radius: 6px;
-}
-
-.jasa-kurir .inner-text h3 {
-    border-bottom: 2px solid #ededed;
-    padding-bottom: 20px;
-    margin-top: 10px;
-}
-
-.jasa-kurir .inner-text.after-banner p {
-    margin-top: 5px;
-}
-
-.jasa-kurir .inner-kurir:last-child {
-    border-bottom: 3px solid transparent;
-}
-
-.jasa-kurir .inner-kurir:first-child h2 {
-    padding-top: 20px;
-}
-
-.jasa-kurir .inner-kurir h2 {
-    padding-top: 5px;
-    text-align: center;
-}
-
-.jasa-kurir .inner-text {
-    padding: 1.25rem;
-    margin: 25px 0px;
-    box-shadow: 0.8px 2px 15px rgba(29, 67, 99, 0.125);
-    border-radius: 6px;
-    background-color: #ffffff;
 }
 
 
