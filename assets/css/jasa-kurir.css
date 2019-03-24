@@ -86,6 +86,10 @@ h6 {
 
 /* isi */
 
+.title-banner {
+    padding-top: 30px;
+}
+
 .border1,
 .border2,
 .border3 {
@@ -249,6 +253,9 @@ h6 {
 }
 
 @media all and (max-width:425px) {
+    .inner-kurir h2 {
+        text-align: center;
+    }
     .about-title .title-left,
     .about-title .title-right {
         float: none;
