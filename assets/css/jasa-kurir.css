@@ -120,12 +120,70 @@ h6 {
 
 .jasa-kurir .inner-img {
     text-align: center;
-    padding: 25px;
+    padding: 25px 0px;
 }
 
 .jasa-kurir .inner-img img {
     display: inline-block;
     border-radius: 6px;
+    width: 100%;
+}
+
+.jasa-kurir .inner-img.one-night {
+    padding-top: 0px;
+}
+
+.jasa-kurir .inner-kurir h2 {
+    padding: 20px 20px 20px 0px;
+    margin-top: 50px;
+}
+
+.jasa-kurir .media-heading {
+    margin-bottom: 0px;
+}
+
+.media-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.jasa-kurir .last {
+    margin-bottom: 60px;
+}
+
+.media,
+.media-body {
+    overflow: visible;
+}
+
+.jasa-kurir .media {
+    margin: 25px 0px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(33, 37, 41, .15)!important;
+}
+
+.media-body a {
+    transition: .3s ease-in-out;
+}
+
+.media-body a:hover {
+    color: rgba(34, 167, 240, .5);
+    text-decoration: none;
+}
+
+.media-body {
+    padding: 25px;
+}
+
+.media-body p {
+    line-height: 1.6;
+}
+
+.media img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 
