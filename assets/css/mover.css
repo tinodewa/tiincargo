@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'play';
+    src: url('../fonts/play/Play.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/play/Play.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/play/Play.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/play/Play.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/play/Play.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/play/Play.svg#opensans') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/open-sans/OpenSans.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/open-sans/OpenSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/open-sans/OpenSans.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/open-sans/OpenSans.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/open-sans/OpenSans.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/open-sans/OpenSans.svg#opensans') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    font-family: 'open-sans';
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'play';
+}
+
+.top-right a {
+    color: black;
+}
+
+.mover-title {
+    background-color: #22a7f0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.mover-title .container {
+    display: inline-block;
+}
+
+.page-address {
+    padding: 20px;
+    /* padding-right: 40px; */
+    /* float: right; */
+}
+
+.page-address a {
+    color: #ffffff;
+}
+
+.page-address h5 {
+    display: inline;
+    vertical-align: middle;
+    font-family: 'open-sans';
+}
+
+.mover-title h3 {
+    margin: 0;
+    padding: 20px 10px;
+}
+
+.mover-title .title-left {
+    float: left;
+}
+
+.mover-title .title-right {
+    float: right;
+}
+
+.content img {
+    padding: 35px;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.border1,
+.border2,
+.border3 {
+    box-sizing: content-box;
+    /* border: 1px solid #dcdcdc; */
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(33, 37, 41, .15)!important;
+}
+
+.border1 h5,
+.border2 h5,
+.border3 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.border1 p,
+.border2 p,
+.border2 ol,
+.border3 p,
+.border3 ol {
+    line-height: 1.78;
+}
+
+@media(min-width: 320px) {
+    .mover-title .title-left,
+    .mover-title .title-right {
+        float: none;
+    }
+    .mover-title h3 {
+        padding-bottom: 5px;
+    }
+    .mover-title .page-address {
+        padding-top: 5px;
+    }
+    .title-right img {
+        width: 10px;
+        height: 10px;
+        padding-top: 2px;
+    }
+    .content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .content h1 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .content img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+        margin-top: 25px;
+        margin-bottom: 35px;
+        padding: 0;
+    }
+    .content p,
+    .content ol {
+        font-size: 14px;
+    }
+    .border1 h5,
+    .border2 h5,
+    .border3 h5 {
+        font-size: 17px;
+        text-align: left;
+        line-height: 1.55;
+    }
+}
+
+@media(min-width: 425px) {
+    .content h1 {
+        line-height: 1.5;
+    }
+}
+
+@media(min-width: 768px) {
+    .mover-title .title-left {
+        float: left;
+    }
+    .mover-title .title-right {
+        float: right;
+    }
+    .mover-title h3 {
+        padding-bottom: 10px;
+    }
+    .mover-title .page-address {
+        padding-top: 16px;
+    }
+}
+
+@media(min-width: 992px) {
+    .content h1 {
+        font-size: 28px;
+        float: none;
+    }
+    .content img {
+        padding: 35px;
+    }
+    .border1 h5,
+    .border2 h5,
+    .border3 h5 {
+        font-size: 20px;
+        text-align: none;
+    }
+}
+
+@media(min-width: 1200px) {
+    .content h1 {
+        float: left;
+    }
+}
