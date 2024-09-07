@@ -25,6 +25,7 @@
 body {
     font-family: 'open-sans';
     font-size: 14px;
+    background-color: #ffffff9f;
 }
 
 h1,
@@ -85,41 +86,108 @@ h6 {
 
 /* isi */
 
-.jasa-kurir {
-    padding-top: 20px;
-    padding-bottom: 60px;
+.title-banner {
+    padding-top: 30px;
+}
+
+.border1,
+.border2,
+.border3 {
+    box-sizing: content-box;
+    /* border: 1px solid #dcdcdc; */
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+    /* margin-bottom: 25px; */
+    box-shadow: 0 .15rem 1.75rem 0 rgba(33, 37, 41, .15)!important;
+}
+
+.border1 h5,
+.border2 h5,
+.border3 h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.border1 p,
+.border2 p,
+.border2 ol,
+.border3 p,
+.border3 ol {
+    line-height: 1.78;
+}
+
+.jasa-kurir .col-md-4 {
+    float: none;
 }
 
 .jasa-kurir .inner-img {
     text-align: center;
+    padding: 25px 0px;
 }
 
 .jasa-kurir .inner-img img {
     display: inline-block;
-    margin: 45px;
+    border-radius: 6px;
+    width: 100%;
 }
 
-.jasa-kurir .inner-kurir {
-    border-bottom: 3px solid #cecece;
-    padding-bottom: 40px;
-}
-
-.jasa-kurir .inner-kurir:last-child {
-    border-bottom: 3px solid transparent;
-}
-
-.jasa-kurir .inner-kurir:first-child h2 {
-    padding-top: 20px;
+.jasa-kurir .inner-img.one-night {
+    padding-top: 0px;
 }
 
 .jasa-kurir .inner-kurir h2 {
-    padding: 20px 0px;
-    padding-top: 50px;
-    text-align: center;
+    padding: 20px 20px 20px 0px;
+    margin-top: 50px;
 }
 
-.jasa-kurir .inner-text {
-    padding: 0px 150px;
+.jasa-kurir .media-heading {
+    margin-bottom: 0px;
+}
+
+.media-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.jasa-kurir .last {
+    margin-bottom: 60px;
+}
+
+.media,
+.media-body {
+    overflow: visible;
+}
+
+.jasa-kurir .media {
+    margin: 25px 0px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(33, 37, 41, .15)!important;
+}
+
+.media-body a {
+    transition: .3s ease-in-out;
+}
+
+.media-body a:hover {
+    color: rgba(34, 167, 240, .5);
+    text-decoration: none;
+}
+
+.media-body {
+    padding: 25px;
+}
+
+.media-body p {
+    line-height: 1.6;
+}
+
+.media img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 
@@ -157,6 +225,9 @@ h6 {
 /* end about-end */
 
 @media all and (max-width:768px) {
+    .jasa-kurir .inner-text {
+        margin: 25px 27.5px;
+    }
     .about-end {
         text-align: center;
     }
@@ -182,6 +253,9 @@ h6 {
 }
 
 @media all and (max-width:425px) {
+    .inner-kurir h2 {
+        text-align: center;
+    }
     .about-title .title-left,
     .about-title .title-right {
         float: none;
